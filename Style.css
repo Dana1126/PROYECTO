@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(IMG/background.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: darkslategrey;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: white;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: darkslategrey;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: dimgray;
+}
+
+.Pet {
+    padding: 100px 0;
+    background-color: white;
+    position: relative;
+}
+
+
+.Pet-content {
+    text-align: center;
+}
+
+.Pet-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: black;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.Pet-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Pet-1 {
+    padding: 0 25px;
+}
+
+.Pet-1 img {
+    width: 200px;
+}
+
+.Pet-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Pet-1 h3 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Tienda {
+    background-image: linear-gradient(rgba (0,0,0,0.7), rgba (0,0,0,0.7)), url(IMG/pexels-sergio-souza-3198001.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Tienda-content {
+    text-align: center;
+}
+
+.Tienda-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.Tienda-content p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.Tienda-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Tienda-1 {
+    padding: 0 100px;
+}
+
+.Tienda-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.Tienda-1 h3 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
